@@ -73,7 +73,7 @@ const NavBar = () => {
                     className="btn btn-primary btn-margin"
                     tabIndex={0}
                     testId="navbar-login-desktop">
-                    Log in
+                    Login
                   </AnchorLink>
                 </NavItem>
               )}
@@ -101,7 +101,7 @@ const NavBar = () => {
                     </DropdownItem>
                     <DropdownItem id="qsLogoutBtn">
                       <AnchorLink href="/api/auth/logout" icon="power-off" testId="navbar-logout-desktop">
-                        Log out
+                        Logout
                       </AnchorLink>
                     </DropdownItem>
                   </DropdownMenu>
