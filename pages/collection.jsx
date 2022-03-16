@@ -19,10 +19,6 @@ export default function Collection(props) {
     fetchData();
   },);
 
-  
-
- 
-
   return (
     <>
         <div className='mb-5'>
