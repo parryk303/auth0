@@ -2,13 +2,11 @@ import { useState, useEffect } from 'react';
 import fetch from 'isomorphic-unfetch';
 import { Form } from 'semantic-ui-react';
 import { useRouter } from 'next/router';
-import { useSession } from 'next-auth/client';
 
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
 export default function New() {
-  const [session, loading] = useSession();
   const [form, setForm] = useState({
     title: '',
     NextGenSOC: [],
@@ -85,15 +83,6 @@ export default function New() {
     }
 
     return err;
-  }
-
-  if (!session) {
-    return (
-      <>
-        <br />
-        <h1 className='auth'>Please login</h1>
-      </>
-    );
   }
 
   return (
