@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'nimbus-sans-novas-dot-bold';
+  src: url('/fonts/nimbus-sans-novas-dot/Nimbus-Sans-D-OT-Bold_32747.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nimbus-sans-novas-dot-light';
+  src: url('/fonts/nimbus-sans-novas-dot/Nimbus-Sans-D-OT-Light_32752.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HandelGo';
+  src: url('/fonts/HandelGo.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ubuntu-Medium';
+  src: url('/fonts/Ubuntu/Ubuntu-Medium.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* .logo navbar-brand {
+  background-image: url(../public/logo);
+} */
+
+.collection {
+  justify-content: center;
+  background-color: #359AD6;
+  width: 500px;
+  padding: 4%;
+  border-radius: 6px;
+  margin-top: 3%;
+  background-image: url('https://www.transparenttextures.com/patterns/white-wave.png');
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
