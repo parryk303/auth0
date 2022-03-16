@@ -223,7 +223,6 @@ const Edit = ({ ssa }) => {
     setActiveStep(step);
   };
 
-  
   return (
     <Box id='edit' sx={{ maxWidth: '100%' }}>
       <Stepper activeStep={activeStep} orientation='vertical'>
